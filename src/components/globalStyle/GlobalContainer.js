@@ -4,7 +4,7 @@ export const GlobalContainer = styled.div`
   ${(props) =>
     props.fluid &&
     css`
-      max-width: 1440px;
+      max-width: 1920px;
       margin: 0 auto;
     `}
   ${(props) =>

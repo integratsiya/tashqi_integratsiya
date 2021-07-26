@@ -4,6 +4,8 @@ export const NavigationContainer = styled.div`
   padding: ${({ padding }) => padding || "24px 112px 24px 104px"};
   height: 72px;
   background-color: #fff;
+  width: 1440px;
+  margin: 0 auto;
 `;
 
 export const GrayBackground = styled.div`

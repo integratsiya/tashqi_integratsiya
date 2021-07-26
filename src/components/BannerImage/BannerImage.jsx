@@ -4,7 +4,7 @@ import Button from "../globalStyle/buttons";
 import { Flex } from "../globalStyle/GlobalContainer";
 import { NavigationTitle } from "../Navigation/StyledNavigation";
 import SelectInput from "../Select/select";
-import { BannerContainer, BannerTitle, SelectContainer } from "./StyledBanner";
+import { BannerContainer, BannerInput, BannerTitle, SelectContainer } from "./StyledBanner";
 
 const BannerImage = () => {
   return (
@@ -16,44 +16,42 @@ const BannerImage = () => {
             </NavigationTitle>
           </BannerTitle>
         <SelectContainer>
-          <Flex>
+          <Flex gap="16px" margin="0 0 16px 0">
+            <BannerInput placeholder="Фамиля, исм, шариф"></BannerInput>
             <SelectInput
-              one="hello1"
-              two="hello2"
-              three="hello3"
-              four="hello4"
-              five="hello5"
+              one="Вилоятни танланг"
             />
             <SelectInput
-              one="world1"
-              two="world2"
-              three="world3"
-              four="world4"
-              five="world5"
+              one="Туманни танланг"
+            />
+          </Flex>
+          <Flex gap="16px">
+            <SelectInput
+              one="Адвокатлик тузилмаси"
             />
             <SelectInput
-              one="www1"
-              two="www2"
-              three="www3"
-              four="www4"
-              five="www5"
+              one="Мақоми"
             />
-            <SelectInput
-              one="Advakat1"
-              two="Advakat2"
-              three="Advakat3"
-              four="Advakat4"
-              five="Advakat5"
-            />
+            <BannerInput width="310px" placeholder="Сертификат рақами"></BannerInput>
+          </Flex>
+        </SelectContainer>
+        <Flex gap="16px" margin="16px 0 0 0">
             <Link to="/hello">
-              <Button padding="12px 63px" borderRadius="0" background="#2F80ED">
+              <Button padding="12px 63px" borderRadius="0" background="#FF4F12  ">
                 <NavigationTitle fontSize="16px" color="#fff">
                   Излаш
                 </NavigationTitle>
               </Button>
             </Link>
-          </Flex>
-        </SelectContainer>
+            <Link to="/hello">
+              <Button padding="12px 63px" borderRadius="0" background="#fff  ">
+                <NavigationTitle fontSize="16px" color="#000">
+                  Излаш
+                </NavigationTitle>
+              </Button>
+            </Link>
+
+        </Flex>
       </BannerContainer>
     </div>
   );
