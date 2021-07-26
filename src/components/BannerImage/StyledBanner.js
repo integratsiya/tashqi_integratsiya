@@ -6,7 +6,7 @@ export const BannerContainer = styled.div`
   background-image: url(${BannerImage});
   /* display: flex; */
   /* align-items: flex-end; */
-  padding: 94px 344px;
+  padding: 94px 108px;
   background-repeat: no-repeat;
   background-size: cover;
 `;
