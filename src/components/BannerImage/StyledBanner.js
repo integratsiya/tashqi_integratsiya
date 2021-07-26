@@ -19,6 +19,10 @@ export const BannerInside = styled.div`
 export const BannerTitle = styled.div`
   margin: ${({ margin }) => margin || "0"};
 `;
+export const SelectMargin = styled.div`
+  width: ${({ width }) => width || "1240px"};
+  margin: ${({ margin }) => margin || "0 auto"};
+`;
 
 export const SelectContainer = styled.div`
   width: ${({ width }) => width || "1224px"};

@@ -4,12 +4,13 @@ import Button from "../globalStyle/buttons";
 import { Flex } from "../globalStyle/GlobalContainer";
 import { NavigationTitle } from "../Navigation/StyledNavigation";
 import SelectInput from "../Select/select";
-import { BannerContainer, BannerInput, BannerTitle, SelectContainer } from "./StyledBanner";
+import { BannerContainer, BannerInput, BannerTitle, SelectContainer, SelectMargin } from "./StyledBanner";
 
 const BannerImage = () => {
   return (
     <div>
       <BannerContainer>
+        <SelectMargin>
           <BannerTitle margin="0 0 24px 0">
             <NavigationTitle width="740px" fontSize="48px" color="#fff" fontWeight="600" lineHeight="54px">
               Ўзбекистон адвокатларининг ягона реестри
@@ -52,6 +53,7 @@ const BannerImage = () => {
             </Link>
 
         </Flex>
+        </SelectMargin>
       </BannerContainer>
     </div>
   );
