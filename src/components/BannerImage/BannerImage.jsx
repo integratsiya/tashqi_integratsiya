@@ -47,7 +47,7 @@ const BannerImage = () => {
             <Link to="/hello">
               <Button padding="12px 63px" borderRadius="0" background="#fff  ">
                 <NavigationTitle fontSize="16px" color="#000">
-                  Излаш
+                Тозалаш
                 </NavigationTitle>
               </Button>
             </Link>
