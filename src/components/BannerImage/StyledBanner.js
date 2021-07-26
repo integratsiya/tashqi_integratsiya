@@ -21,7 +21,7 @@ export const BannerTitle = styled.div`
 `;
 
 export const SelectContainer = styled.div`
-  max-width: ${({ width }) => width || "1224px"};
+  width: ${({ width }) => width || "1224px"};
   background-color: #fff;
   /* margin: 94px auto 64px; */
   border-radius: 4px;
