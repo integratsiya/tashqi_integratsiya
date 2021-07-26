@@ -44,7 +44,7 @@ const BannerImage = () => {
                 </NavigationTitle>
               </Button>
             </Link>
-            <Link to="/hello">
+            <Link to="/">
               <Button padding="12px 63px" borderRadius="0" background="#fff  ">
                 <NavigationTitle fontSize="16px" color="#000">
                 Тозалаш
