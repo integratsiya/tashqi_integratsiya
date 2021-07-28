@@ -11,19 +11,22 @@ const Main = () => {
     {
       date: "2 ИЮНЬ 2021",
       headerTitle: "Палата фаолиятининг долзарб масалалари",
-      smallTitle: "30 июнь куни Кострома вилояти Президенти маъмурияти кенгашининг йиғилиши бўлиб ўтди"
+      smallTitle:
+        "30 июнь куни Кострома вилояти Президенти маъмурияти кенгашининг йиғилиши бўлиб ўтди",
     },
     {
       date: "2 ИЮНЬ 2021",
       headerTitle: "Палата фаолиятининг долзарб масалалари",
-      smallTitle: "30 июнь куни Кострома вилояти Президенти маъмурияти кенгашининг йиғилиши бўлиб ўтди"
+      smallTitle:
+        "30 июнь куни Кострома вилояти Президенти маъмурияти кенгашининг йиғилиши бўлиб ўтди",
     },
     {
       date: "2 ИЮНЬ 2021",
       headerTitle: "Палата фаолиятининг долзарб масалалари",
-      smallTitle: "30 июнь куни Кострома вилояти Президенти маъмурияти кенгашининг йиғилиши бўлиб ўтди"
-    }
-  ]
+      smallTitle:
+        "30 июнь куни Кострома вилояти Президенти маъмурияти кенгашининг йиғилиши бўлиб ўтди",
+    },
+  ];
   return (
     <div>
       <MainContainerTop>
@@ -31,17 +34,17 @@ const Main = () => {
           Янгиликлар
         </GlobalTitle>
         <GlobalTitle color="#2A2EF4" fontSize="16px" fontWeight="600">
-          <Link to="/">
-          Barchasini ko‘rish
-          </Link>
+          <Link to="/MoreNews">Barchasini ko‘rish</Link>
         </GlobalTitle>
       </MainContainerTop>
       <StatisticContainer margin="24px auto 0" gap="24px" width="1224px">
-        {data.map(el => <Cards
-          date={el.date}
-          headerTitle={el.headerTitle}
-          smallTitle={el.smallTitle}
-        />)}
+        {data.map((el) => (
+          <Cards
+            date={el.date}
+            headerTitle={el.headerTitle}
+            smallTitle={el.smallTitle}
+          />
+        ))}
       </StatisticContainer>
       <Statistics />
     </div>

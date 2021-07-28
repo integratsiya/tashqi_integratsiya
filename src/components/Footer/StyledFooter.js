@@ -5,6 +5,7 @@ export const FooterContainer = styled.div`
   width: ${({ width }) => width || "100%"};
   padding: ${({ padding }) => padding || "64px 108px"};
   background-color: #272e3d;
+  margin-top: 96px;
 `;
 
 export const FooterBottom = styled.div`

@@ -37,7 +37,7 @@ const BannerImage = () => {
           </Flex>
         </SelectContainer>
         <Flex gap="16px" margin="16px 0 0 0">
-            <Link to="/hello">
+            <Link to="/SearchResults">
               <Button padding="12px 63px" borderRadius="0" background="#FF4F12  ">
                 <NavigationTitle fontSize="16px" color="#fff">
                   Излаш
