@@ -20,6 +20,8 @@ export const NavLinkStyle = styled(NavLink)`
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
+  text-decoration: none;
+  color: #000;
 `;
 
 export const NavigationTitle = styled.div`
