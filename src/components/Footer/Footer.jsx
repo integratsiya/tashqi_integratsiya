@@ -1,5 +1,4 @@
 import React from "react";
-import { Flex } from "../globalStyle/GlobalContainer";
 import {
   FooterBottom,
   FooterContainer,
@@ -11,6 +10,7 @@ import FaceBook from "../../photo/facebook-circle.svg";
 import YouTube from "../../photo/youtube-circle.svg";
 import Instagram from "../../photo/instagram-circle.svg";
 import Twitter from "../../photo/twitter-circle.svg";
+import { Flex } from "../../globalStyle/Flex";
 
 const Footer = () => {
   return (

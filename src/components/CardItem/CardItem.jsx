@@ -1,11 +1,21 @@
+import { Button } from "@material-ui/core";
 import React from "react";
-import Button from "../../../globalStyle/buttons";
-import { Flex } from "../../../globalStyle/GlobalContainer";
-import { GlobalTitle } from "../../../globalStyle/title";
-import { GrayBackground } from "../../../Navigation/StyledNavigation";
-import { LicenseContainer, SecondCardContainer } from "./StyledSecondMainCard";
+import { Flex } from "../../globalStyle/Flex";
+import { GlobalTitle } from "../../globalStyle/title";
+import {
+  LicenseContainer,
+  SecondCardContainer,
+} from "../../Pages/Lawyers/StyledLawyersPage";
 
-const SecondMainCard = (props) => {
+import { GrayBackground } from "../Navigation/StyledNavigation";
+// import Button from "../../globalStyle/buttons";
+// import { Flex } from "../globalStyle/Flex";
+// import { GlobalTitle } from "../globalStyle/title";
+// import { GrayBackground } from "../Navigation/StyledNavigation";
+
+// import { LicenseContainer, SecondCardContainer } from "./StyledCardItem";
+
+const CardItem = (props) => {
   return (
     <div>
       <SecondCardContainer>
@@ -26,10 +36,7 @@ const SecondMainCard = (props) => {
           <GlobalTitle color="#828282">{props.companyName}</GlobalTitle>
           <GlobalTitle fontWeight="600">№ СИ {props.userID}</GlobalTitle>
         </div>
-        <LicenseContainer>
-          {props.licenseTitle}
-          Лицензияга эга шахс (адвокат мақомисиз)
-        </LicenseContainer>
+        <LicenseContainer>{props.licenseTitle}</LicenseContainer>
         <Button
           background="#fff"
           borderColor="#828282"
@@ -43,4 +50,4 @@ const SecondMainCard = (props) => {
   );
 };
 
-export default SecondMainCard;
+export default CardItem;

@@ -10,7 +10,7 @@ export const StatisticContainer = styled.div`
 
 export const StatisticImgContainer = styled.div`
   height: ${({ height }) => height || "461px"};
-  max-width: ${({ width }) => width || "1224px"};
+  width: ${({ width }) => width || "1224px"};
   margin: ${({ margin }) => margin || "16px auto 0"};
   background-color: #c4c4c4;
   @media screen and (max-width: 1230px) {

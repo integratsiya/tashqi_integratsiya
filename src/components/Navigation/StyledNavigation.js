@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavigationContainer = styled.div`
@@ -13,6 +14,12 @@ export const GrayBackground = styled.div`
   width: ${({ width }) => width || "0"};
   border-radius: ${({ borderRadius }) => borderRadius || "0"};
   background-color: #c4c4c4;
+`;
+
+export const NavLinkStyle = styled(NavLink)`
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
 `;
 
 export const NavigationTitle = styled.div`

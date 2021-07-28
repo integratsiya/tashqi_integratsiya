@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { Flex } from "../globalStyle/GlobalContainer";
-import { GlobalTitle } from "../globalStyle/title";
-import Cards from "./Cards/Cards";
-import Statistics from "./Statistics/Statistics";
+import Cards from "../../../components/Cards/Cards";
+import { GlobalTitle } from "../../../globalStyle/title";
+import Statistics from "../../../components/Statistics/Statistics";
 import { MainContainerTop, StatisticContainer } from "./StyledMain";
+import Sponsors from "../../../components/Sponsors/Sponsors";
 
 const Main = () => {
   const data = [
@@ -47,6 +47,7 @@ const Main = () => {
         ))}
       </StatisticContainer>
       <Statistics />
+      <Sponsors />
     </div>
   );
 };

@@ -11,7 +11,6 @@ export const MainContainerTop = styled.div`
   }
 `;
 
-
 export const StatisticContainer = styled.div`
   max-width: 1224px;
   display: flex;

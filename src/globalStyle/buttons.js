@@ -10,7 +10,7 @@ const StyledButton = styled.button`
   padding: ${(props) => props.padding || "12px 54px"};
   margin: ${(props) => props.margin || ""};
   background-color: ${(props) => props.background || "#11151E"};
-  border: 1px solid  ${(props) => props.borderColor || "transperent"};
+  border: 1px solid ${(props) => props.borderColor || "transperent"};
   transition: all 0.2s;
   /* &:hover {
     opacity: 0.9;

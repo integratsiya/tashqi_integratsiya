@@ -3,7 +3,7 @@ import MenuItem from "@material-ui/core/MenuItem";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 import { useStyles } from "./StyledLanguage";
-import { LanguageIcon } from "../globalStyle/Icons";
+import { LanguageIcon } from "../../globalStyle/Icons";
 
 export default function Language(props) {
   const classes = useStyles();

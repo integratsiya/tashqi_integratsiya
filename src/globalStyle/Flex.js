@@ -1,18 +1,4 @@
-import styled, { css } from "styled-components";
-
-export const GlobalContainer = styled.div`
-  ${(props) =>
-    props.fluid &&
-    css`
-      max-width: 1920px;
-      margin: 0 auto;
-    `}
-  ${(props) =>
-    props.rigth &&
-    css`
-      width: 100%;
-    `}
-`;
+import styled from "styled-components";
 
 const StyledFlex = styled.div`
   height: ${({ height }) => height || ""};
